@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  padding-left: 1rem;
+}
+h1 {
+  margin-bottom: 0.625rem;
+  font-family: Inter, Segoe UI, Helvetica Neue, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h1,
+h2 {
+  font-weight: 500;
+}
+.btn {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  line-height: normal;
+  white-space: nowrap;
+  margin: 0px;
+  padding: 10px 12px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 97, 47);
+  font-family: var(--sans);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}

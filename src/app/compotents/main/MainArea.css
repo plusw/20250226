@@ -1,0 +1,31 @@
+.main {
+  .tooltip-text {
+    visibility: hidden; /* 初始状态下隐藏 */
+    position: absolute;
+    top: -40px; /* 显示在按钮上方 */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .haveTextButton:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1; /* hover 时显示 */
+  }
+
+  .tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* 向下箭头的位置 */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent; /* 创建一个向下的箭头 */
+  }
+}

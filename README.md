@@ -4,7 +4,7 @@
 ## 如何本地运行
 ```bash
 git clone https://github.com/plusw/RotatePdf.git
-cd
+cd RotatePdf/
 npm install
 npm run dev
 ```

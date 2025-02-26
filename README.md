@@ -9,8 +9,8 @@ npm install
 npm run dev
 ```
 ## 用到的技术
-next.js 
-react
+next.js, 
+react, 
 typeScript
 ## Issues
 欢迎提Issues

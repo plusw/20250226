@@ -8,9 +8,6 @@ const Navbar = () => {
   // 切换菜单展开/收起状态
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
-  // 关闭菜单
-  const closeMenu = () => setIsMenuOpen(false);
-
   return (
     <>
       <div className="navbar">

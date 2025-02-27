@@ -54,6 +54,11 @@
   max-width: 100%;
   margin: 0px auto;
   padding: 10px;
+  .allLinks {
+    a:hover {
+      text-decoration: underline; /* 添加下划线 */
+    }
+  }
 
   .logo {
     padding: 10px;

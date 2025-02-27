@@ -28,7 +28,7 @@ const Navbar = () => {
 
           {/* 导航链接，屏幕宽度大于 1024px 时显示 */}
           <div
-            className={`links-container ${
+            className={`links-container allLinks ${
               isMenuOpen ? "block" : "hidden"
             } lg:flex`}
           >

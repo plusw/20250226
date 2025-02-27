@@ -1,3 +1,17 @@
+# PDF Rotation Tool
+## Demo
+![image](https://github.com/user-attachments/assets/594bf1ad-779a-4e32-9c15-1dfcf30fc9a2)
+
+## Live Demo
+[live https://20250226rotatepdf.vercel.app/](https://20250226rotatepdf.vercel.app/)
+
+## How to Run Locally
+```bash
+git clone https://github.com/plusw/RotatePdf.git
+cd RotatePdf/
+npm install
+npm run dev
+---------------------------------------------------------------------------------------Chinese
 # PDF旋转工具
 ## 运行效果
 ![image](https://github.com/user-attachments/assets/594bf1ad-779a-4e32-9c15-1dfcf30fc9a2)

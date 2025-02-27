@@ -11,6 +11,7 @@ git clone https://github.com/plusw/RotatePdf.git
 cd RotatePdf/
 npm install
 npm run dev
+```
 ---------------------------------------------------------------------------------------Chinese
 # PDF旋转工具
 ## 运行效果
